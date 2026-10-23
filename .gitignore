@@ -1,0 +1,25 @@
+# Fichiers système
+**/.DS_Store
+Thumbs.db
+.vscode/
+.remember/
+
+# Dépendances, environnements virtuels et builds
+**/node_modules/
+**/dist/
+**/build/
+**/venv/
+**/.venv/
+**/__pycache__/
+
+# Logs et caches
+**/*.log
+**/.cache/
+
+# Specs et plans de travail superpowers (voir rules/common/skills.md)
+.superpowers/
+
+# Skills : installes et mis a jour par leurs propres outils
+# (install.sh, CLI amont, marketplace) ou edites en place via les symlinks
+# ~/.claude/skills. Ce depot ne suit plus aucun skill.
+/skills/
